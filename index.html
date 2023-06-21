@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Leying</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    
+    <title>Leying Studio - Website</title>
+  </head>
+  <body>
+<!--  Navigation Bar    -->
+    <nav id="navigation" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">AI BAR</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarButtons" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarButtons">          
+          <ul class="nav navbar-nav navbar-right">
+            <li id="navAbout" class="btn navbar-btn navActive">我們的理念</li>
+            <li id="navServices" class="btn navbar-btn">相關服務</li>
+            <li id="navContact" class="btn navbar-btn">聯繫我們</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!--  Top page image    -->
+ <div class="parallaxTop">
+   <div class="jumboBanner shadow">
+     <h1 class="banner">AI助力您的生意和工作</h1>
+     <h3 class="motto">運用AI，無需程式碼或高超技術，實現商業和職業的突破</h3>
+     <button id="bannerBtn" class="bannerBtn">了解更多</button>
+   </div>
+ </div>
+<!--  Main content   -->    
+<!--  About row      -->
+    <div id="aboutBlock" class="container">
+      <div id="aboutRow" class="row">
+        <div class="aboutLeft col-xs-12 col-sm-6 cloak">
+          <div class="row">
+            <div class="col-md-3"><img src="class2.jpg" alt=""></div>
+            <div class="aboutImg col-md-9"></div>
+          </div>
+        </div>
+        <div class="aboutRight col-xs-12 col-sm-6">
+          <div class="row">
+            <div class="col-md-9">            
+              <h2>我們的故事</h2>
+              <hr />
+              <p>在這個快速變化的數字時代，AI為企業和個人帶來了前所未有的機遇。然而，對於許多人來說，運用AI技術仍然是一個困難和複雜的挑戰。我們致力於打破這種限制，讓每個人都能輕鬆使用AI，無需程式碼或高超的技術。我們的平台提供了一個簡單易用的介面，讓您在自己的生意和工作中充分發揮AI的力量。</p>
+            </div>
+          </div>
+          <div class="col-md-3"></div>          
+        </div>
+      </div>
+    </div>
+<!--  Services row      -->
+    <div id="servicesRow" class="parallaxSection">
+      <div class="shadowSection">
+        <h2>我們的服務</h2>
+        <hr />
+      </div>
+    </div>
+    <div id="serviceBlocks" class="row">
+      <div class="container">
+        <div class="serviceBlock col-md-4">
+          <h1>公開實體課程</h1>
+          <img src="https://cdn0.iconfinder.com/data/icons/thinico/88/thinico-17-512.png" />
+          <p>透過我們的實體課程，您可以親自參與由專業講師主持的工作坊和培訓活動。我們的課程涵蓋了AI的基礎知識和實際應用，以及如何在不使用程式碼或高超技術的情況下運用AI改進您的業務和職業生涯。</p>
+        </div>
+        <div class="serviceBlock col-md-4">
+          <h1>線上分享會</h1>
+          <img src="https://cdn0.iconfinder.com/data/icons/thinico/88/thinico-17-512.png" />
+          <p>通過我們的線上講座，您可以隨時隨地參加由行業專家和AI領域的權威人士主講的專題演講。無論您是想了解AI的最新發展，還是想探索在不同行業中應用AI的最佳實踐，我們的線上講座都將為您提供有價值的見解和啟發。</p>
+        </div>
+        <div class="serviceBlock col-md-4">
+          <h1>企業邀約演講</h1>
+          <img src="https://cdn0.iconfinder.com/data/icons/thinico/88/thinico-17-512.png" />
+          <p>我們提供定制的企業邀約演講服務，旨在幫助您的團隊和同事了解AI的潛力，以及如何在日常業務中運用它。我們的專家將提供實用的案例研究和實施策略，以幫助您的團隊快速上手，提高業務效率。</p>
+        </div>
+      </div>
+    </div>
+<!--  Contact form      -->
+      <div id="phoneContact" class="phoneContact row">
+        <div class="container">
+          <h2>準備體驗AI的力量嗎？立即聯繫我們，開啟您的AI之旅！</h2>
+        </div>
+      </div> 
+      <div class="container">               
+        <div id="contactRow" class="contactForm row">
+          <h2>CONTACT FORM</h2>
+          <hr />
+          <h3>在下方填寫您的聯繫資訊，我們的團隊將盡快與您聯繫，提供更多關於我們的服務和解答您的疑問。不要錯失這個機會，讓AI成為您生意和工作的助手！</h3>
+          <form name="contactForm" class="form-group" action="#" method="POST">
+            <input id="formName" name="name" class="inputInline form-control" type="text" placeholder="名字" required />
+            <input id="formEmail" name="email" class="inputInline form-control" type="email" placeholder="信箱" required />
+            <textarea id="formMessage" name="message" class="form-control" type="text" placeholder="給我留言" required></textarea>
+            <input name="submit" class="bannerBtn" type="submit" value="寄出" />
+          </form>
+        </div>        
+      </div>
+<!--  Contact info      -->
+    <div id="contactInfo" class="row">
+      <div class="container">
+        <div class="contactStack col-md-4">
+          <h4>公司地址</h4>
+          <p>人工智能網路 123 號</p>
+          <p>台灣, 台北市士林區 111</p>
+        </div>
+        <div class="contactStack col-md-4">
+          <h4>營業時間</h4>
+          <p>星期一-星期五: 10:00 AM - 11:00 PM</p>
+          <p>星期六-星期日: 11:00 AM - 13:00 PM</p>
+        </div>
+        <div class="contactStack col-md-4">
+          <h4>聯繫方式</h4>
+          <p>Phone: +13152777980</p>
+          <p>Email: x336645@gmail.com</p>
+        </div>
+      </div>
+    </div>
+<!--  Copyright    -->
+    <div id="copyright" class="row">
+      <div class="container">
+        <div id="socialBtn">
+          <a href="#" class="social"><img id="facebook"></a>
+          <a href="#" class="social"><img id="twitter"></a>
+          <a href="#" class="social"><img id="linkedin"></a>
+        </div>
+        <p>&copy; 版權所有 © 2023。由 Ai Bar 創建和設計並保留所有權利</p>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
